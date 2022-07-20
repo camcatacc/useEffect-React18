@@ -17,7 +17,7 @@ const queryClient = new QueryClient();
 root.render(
 	// Important: Strict Mode
 	<React.StrictMode>
-		<BrowserRouter>
+		<BrowserRouter basename={process.env.PUBLIC_URL}>
 			<QueryClientProvider client={queryClient}>
 				<Routes>
 					<Route path="/" element={<App />}>
