@@ -3,5 +3,5 @@ if [[ $VERCEL_GIT_COMMIT_REF == "master"  ]] ; then
   npm run build:prod
 else 
   echo "This is not our main branch"
-  npm run build:dev
+  NODE_ENV=development npm run build:dev
 fi
