@@ -9,7 +9,7 @@ const ConsoleLogUsingUseEffect = () => {
 	}, []);
 	return (
 		<>
-			<h2>ConsoleLogUsingUseEffect</h2>
+			<h2>Console Log Using Use Effect</h2>
 			<p>
 				We are using a useEffect with an empty dependency array to console log something. <br />
 				If you check the console, you will for sure see it just once. Right?
