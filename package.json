@@ -1,6 +1,7 @@
 {
 	"name": "react-18-example",
 	"version": "0.1.0",
+	"homepage": "https://camcatacc.github.io/useEffect-React18",
 	"private": true,
 	"dependencies": {
 		"@tanstack/react-query": "^4.0.3",
@@ -16,7 +17,8 @@
 		"start": "react-scripts start",
 		"build": "react-scripts build",
 		"test": "react-scripts test",
-		"eject": "react-scripts eject"
+		"eject": "react-scripts eject",
+		"deploy": "npm run build && gh-pages -d build"
 	},
 	"eslintConfig": {
 		"extends": [
@@ -44,6 +46,7 @@
 		"@types/node": "^16.11.45",
 		"@types/react": "^18.0.15",
 		"@types/react-dom": "^18.0.6",
-		"@types/uuid": "^8.3.4"
+		"@types/uuid": "^8.3.4",
+		"gh-pages": "^4.0.0"
 	}
 }
