@@ -21,7 +21,7 @@ const ConsoleLogUsingUseEffect = () => {
 					</p>
 					<p>
 						The useEffect is being called multiple times. Thus, it is printed more than once. <br />
-						Even if it is printed multiple times, it's quite inoquous, right? That's correct for most cases: <br />
+						Even if it is printed multiple times, it's quite innocuous, right? That's correct for most cases: <br />
 						<b>It does not matter that it is called more than once.</b>{" "}
 					</p>
 					<p>Let's see with some other scenarios, though.</p>
