@@ -25,4 +25,5 @@ footer {
 	position: fixed;
 	bottom: 0;
 	height: 130px;
+	overflow-y: auto;
 }
