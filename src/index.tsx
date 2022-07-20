@@ -17,17 +17,17 @@ const queryClient = new QueryClient();
 root.render(
 	// Important: Strict Mode
 	<React.StrictMode>
-		<QueryClientProvider client={queryClient}>
-			<BrowserRouter>
+		<BrowserRouter>
+			<QueryClientProvider client={queryClient}>
 				<Routes>
 					<Route path="/" element={<App />}>
-						<Route path="console" element={<ConsoleLogUsingUseEffect />} />
+						<Route index={true} element={<ConsoleLogUsingUseEffect />} />
 						<Route path="regular-image-fetching" element={<RegularImageFetchingUsingUseEffect />} />
 						<Route path="react-query-image-fetching" element={<ReactQueryImageFetching />} />
 					</Route>
 				</Routes>
-			</BrowserRouter>
-		</QueryClientProvider>
+			</QueryClientProvider>
+		</BrowserRouter>
 	</React.StrictMode>
 );
 
